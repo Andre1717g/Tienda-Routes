@@ -1,0 +1,179 @@
+
+ body {
+  background-color: black;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+ 
+
+ nav ul{
+  margin-top: 7px;
+  padding: 5px; 
+  /* background-color: #3d393b; */
+  /* background-color: red; */
+   list-style-type: none;
+  
+} 
+
+ nav a{
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li{
+  display: inline-block;
+  padding: 1.2rem;
+ }
+
+.feactures{
+  width: 60%;
+  height: 370px;
+  margin-left: 170px;
+  padding: 70px;
+  background-color: black;
+}
+
+.feactures {
+  background-color: black;
+  width: 60%;
+  height: 495px;
+  margin: 0 auto; /* Centra horizontalmente */
+}
+
+/* Media query para pantallas de hasta 768px de ancho */
+@media only screen and (max-width: 768px) {
+  .feactures {
+    width: 80%; /* Cambia el ancho a 80% */
+    height: auto; /* Cambia la altura a automático */
+    margin: 0 auto; /* Centra horizontalmente */
+  }
+}
+
+/* Media query para pantallas de hasta 576px de ancho */
+@media only screen and (max-width: 576px) {
+  .feactures {
+    width: 90%; /* Cambia el ancho a 90% */
+    height: auto; /* Cambia la altura a automático */
+    margin: 0 auto; /* Centra horizontalmente */
+  }
+}
+
+/* Media query para pantallas de hasta 375px de ancho */
+@media only screen and (max-width: 375px) {
+  .feactures {
+    width: 95%; /* Cambia el ancho a 95% */
+    height: auto; /* Cambia la altura a automático */
+    margin: 0 auto; /* Centra horizontalmente */
+  }
+}
+
+
+.feactures1{
+  width: 60%;
+  height: 370px;
+  margin-left: 170px;
+  padding: 70px;
+  background-color: black;
+}
+
+.feactures1 {
+  background-color: black;
+  width: 60%;
+  height: 495px;
+  margin: 0 auto; /* Centra horizontalmente */
+}
+
+/* Media query para pantallas de hasta 768px de ancho */
+@media only screen and (max-width: 768px) {
+  .feactures1 {
+    width: 80%; /* Cambia el ancho a 80% */
+    height: auto; /* Cambia la altura a automático */
+    margin: 0 auto; /* Centra horizontalmente */
+  }
+}
+
+/* Media query para pantallas de hasta 576px de ancho */
+@media only screen and (max-width: 576px) {
+  .feactures1 {
+    width: 90%; /* Cambia el ancho a 90% */
+    height: auto; /* Cambia la altura a automático */
+    margin: 0 auto; /* Centra horizontalmente */
+  }
+}
+
+/* Media query para pantallas de hasta 375px de ancho */
+@media only screen and (max-width: 375px) {
+  .feactures1 {
+    width: 95%; /* Cambia el ancho a 95% */
+    height: auto; /* Cambia la altura a automático */
+    margin: 0 auto; /* Centra horizontalmente */
+  }
+}
+
+
+
+
+
+/* .listas{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  margin-top: 20px;
+} */
+
+.listas {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px; /* Relleno a los lados */
+  margin-top: 20px;
+}
+
+/* Media query para pantallas de hasta 768px de ancho */
+@media only screen and (max-width: 768px) {
+  .listas {
+    flex-direction: column; /* Cambia la dirección del flex a columna */
+    align-items: center; /* Centra los elementos en la columna */
+    padding: 0; /* Elimina el relleno en pantallas más pequeñas */
+    margin-top: 10px; /* Reducir el margen superior */
+  }
+}
+
+/* Media query para pantallas de hasta 576px de ancho */
+@media only screen and (max-width: 576px) {
+  .listas {
+    padding: 0 10px; /* Reduce el relleno lateral */
+  }
+}
+
+/* Media query para pantallas de hasta 375px de ancho */
+@media only screen and (max-width: 375px) {
+  .listas {
+    margin-top: 5px; /* Reducir aún más el margen superior */
+  }
+}
+
+
+nav a.is-active{
+  font-weight: bold;
+  pointer-events: none;
+  background-color: rgb(64, 57, 58);
+  color: pink;
+} 
+
+ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1,h5,h6,p{
+  color: white;
+}
+
+h2{
+  color: white;
+  display: flex;
+  justify-content: center;
+}
